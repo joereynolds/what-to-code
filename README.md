@@ -44,7 +44,7 @@ Here's one idea of how it would look
 ``` 
 That'd spit out a CPU-usage bar showing usage in percent.
 
-### Created
+**Created**
 https://github.com/joereynolds/fanbox
 
 11. A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free.
