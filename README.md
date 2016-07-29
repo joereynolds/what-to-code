@@ -229,3 +229,8 @@ It should have an API similar  to this
 `soundex_song('slim-shady.txt', amount=0.75)`
 
 The amount parameter should be how 'soundexed' the song is on a scale between 0 - 1. 1 would be every word, 0 would be no words.
+
+- Some sort of program that finds potentially hard-coded things to make us aware of them,
+i.e.
+This string 'You can register by 30th of June' in a HTML template is a nono.
+It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
