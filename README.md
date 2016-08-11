@@ -155,6 +155,7 @@ Should output a possible list of locations
 ```/boot/default/grub.d```
 ```/etc/grub.d```
 
+
 - . A MIDI drum track linter.
 i.e.
 ```midi-lint drum-track.mid```
