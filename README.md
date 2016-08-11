@@ -236,6 +236,7 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 
 - Some sort of program that finds potentially hard-coded things to make us aware of them,
 i.e.
+
 This string `'You can register by 30th of June'` in a HTML template is a nono.
 
 It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
