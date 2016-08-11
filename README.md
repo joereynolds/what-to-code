@@ -150,11 +150,14 @@ It finds all functions in a file, greps through each function name. If that grep
 
 - . ```where-is``` a program that helps you find config files etc...
 i.e.
-```where-is grub config```
-Should output a possible list of locations
-```/boot/default/grub.d```
-```/etc/grub.d```
+`where-is grub config`
 
+Should output a possible list of locations
+
+```
+/boot/default/grub.d
+/etc/grub.d
+```
 
 - . A MIDI drum track linter.
 i.e.
