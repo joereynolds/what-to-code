@@ -213,7 +213,7 @@ php
 
 - . Fetch Current Weather – Get the current weather for a given zip/postal code.
 
-- . A website which contains a database of instrumentation for songs. You can seearch for a song that a 2 violins and a piano and then it shows the matches. This is a huge project.
+- . A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
 - . Pokemon cry analyser - given a pokemons cry, analyse the waveform and return back the pokemon it came from. 
 
