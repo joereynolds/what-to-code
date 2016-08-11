@@ -45,7 +45,7 @@ Here's one idea of how it would look
 That'd spit out a CPU-usage bar showing usage in percent.
 **Created** https://github.com/joereynolds/fanbox
 
-- . A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free.
+- . A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free. Something similar exists but doesn't just focus on software https://www.volunteermatch.org/
 
 - . A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
 
