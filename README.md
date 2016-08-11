@@ -15,8 +15,8 @@ A few entries have been removed as they were ideas for work.
 - . A desktop app that is basically just an input box where you enter a JIRA ticket and it'll open up the URL for you. If it's a project ticket, it'll open up the pull request page instead.
 
 - . An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as
-- Todo : Organise your stuff to do here
-- Notes : Basic rambling page
+    - Todo : Organise your stuff to do here
+    - Notes : Basic rambling page
 
 - . Make a PR to ajenti that prettifies PHP log files when you choose one.
 
