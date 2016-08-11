@@ -32,7 +32,7 @@ A few entries have been removed as they were ideas for work.
 
 - . A keylogger built using electron.
 
-- . A desktop app that shows system information. Similar to conky but less shit. The markup would be in HTML (not a made up format like conky) and it could be styled with CSS (not a made up style format~~ ~~like conky).
+- . A desktop app that shows system information. Similar to conky but less shit. The markup would be in HTML (not a made up format like conky) and it could be styled with CSS (not a made up style format like conky).
 (built using electron)
 Here's one idea of how it would look
 ```
@@ -49,11 +49,7 @@ That'd spit out a CPU-usage bar showing usage in percent.
 
 - . A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
 
-- . [Removed]
-
 - . Online version of snake with cool powerups.
-
-- . [Removed]
 
 - . A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
 
