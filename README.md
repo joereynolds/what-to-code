@@ -1,6 +1,6 @@
 # what-to-code
 
-You probably find yourself unable to thing of **what** to program.
+You probably find yourself unable to think of **what** to program.
 So, I took the liberty of putting my big list of ideas on Github :D
 
 ## Note
