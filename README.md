@@ -238,3 +238,7 @@ This string `'You can register by 30th of June'` in a HTML template is a nono.
 It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
 
 - . A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
+
+- A ViM function that unit tests the current function your cursor is in. 
+i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
+`phpunit path/to/file functionName` under the hood
