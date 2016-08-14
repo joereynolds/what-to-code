@@ -242,3 +242,5 @@ It should warn/flag it up and output something like 'You can register by REGISTR
 - A ViM function that unit tests the current function your cursor is in. 
 i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
 `phpunit path/to/file functionName` under the hood
+
+- Given an image, you should convert it into a textbased equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
