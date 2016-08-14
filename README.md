@@ -244,3 +244,5 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 `phpunit path/to/file functionName` under the hood
 
 - Given an image, you should convert it into a textbased equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
+
+- Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
