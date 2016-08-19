@@ -40,6 +40,7 @@ i.e.
 tween_images(from_image, to_image, frames=5)
 ```
 Would create 5 tween images.
+**Created** https://github.com/BenWiederhake/tween_images#tween_images-gives-you-da-images-inntween
 
 - A program that finds dead functions (ones not used).
 It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
