@@ -124,6 +124,10 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 - Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
 
+- Just like "inotify" tracks creation/modification of files, create something that allows one to track modification of individual **blocks** of specific files.  This probably needs to be a kernel module.
+
+- A graph-based sinbgle-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
+
 ### Local, interactive (desktop / command-line)
 
 - A desktop app that is basically just an input box where you enter a JIRA ticket and it'll open up the URL for you. If it's a project ticket, it'll open up the pull request page instead.
@@ -179,6 +183,10 @@ without using a cmdline.
 Built using electron. also using that codepen form style.
 - A joke searcher. Given a JSON file of jokes and their category, it'll dynamically load them in.
 
+- Interactive editing of an image / it's Fourier transform, while being able to watch how they influence each other.
+
+- Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
+
 ### Service (website, multi-party)
 
 - An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as
@@ -230,6 +238,8 @@ You send the file over to the server and it renders it for you, that's it!
 
 - A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
 
+- Pair Programming, Peer Finder website.
+
 ### Improvements / features
 
 - Make a PR to ajenti that prettifies PHP log files when you choose one.
@@ -242,6 +252,11 @@ You send the file over to the server and it renders it for you, that's it!
 
 - Make a PR to chrome's devtools. When you ctrl+p in a CSS file, the matches are badly prioritised.
 
+- xscreensaver plugins:
+    - Uplink [ARC login screen](https://www.dropbox.com/s/1aaubt6iiqft5kw/ARC%20login.png?dl=0) (or Arunmore if you must). Note that the visible input fields don't need to actually work, as xscreensaver doesn't support that.
+    - cellular automata?  (not only game of life!)
+    - "5000 dots" http://www.scp-wiki.net/scp-1336
+
 ### Re-implementations
 
 - A keylogger built using electron.
@@ -251,6 +266,10 @@ You send the file over to the server and it renders it for you, that's it!
 -  Zip / Postal Code Lookup – Enter a zip or postal code and have it return which city/cities that are in that zip code.
 
 - Fetch Current Weather – Get the current weather for a given zip/postal code.
+
+- Something to draw (and maybe interact with) [Apollonian Gaskets](https://en.wikipedia.org/wiki/Apollonian_gasket) (a kind of fractal)
+
+- Use a space-filling curve to walk an image. Does this yield anything interesting, e.g., more easily compressible?
 
 ### Unsorted
 
