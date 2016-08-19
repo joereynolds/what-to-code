@@ -71,6 +71,8 @@ etc...
 i.e.:
   ```grepsql "sarah"  --db="people" ```
 
+- A regression testing CLI for CSS/HTML. On building a release it would take a screenshot of the current branch, and the master (or a specified image?) and if they did not match, it would warn of it and display the diffed image. You can use `ImageMagick` to diff images. See here: http://stackoverflow.com/questions/5132749/diff-an-image-using-imagemagick
+
 - A design linter for css files. Given a css file it highlights the bad aspects of it.
 i.e.
   ```css-lint style.css```
