@@ -33,9 +33,9 @@ A few entries have been removed as they were ideas for work.
 - A keylogger built using electron.
 
 - A desktop app that shows system information. Similar to conky but less shit. The markup would be in HTML (not a made up format like conky) and it could be styled with CSS (not a made up style format like conky).
-(built using electron)
+Use electron.
 Here's one idea of how it would look
-```
+  ```
 <main>
   <div class="cpu-usage">
     <div data-format="percent" class="bar"></div>
@@ -113,7 +113,7 @@ Try and get multiple samples per note to allow for variety.
 
 - A bash shell script/program that logs all the files you've written to (and maybe there line numbers) for x amount of time. (preferably 1 year). That way, when someone asks you 'You know that change for the PEAR email library, what was it?' you can come back with an answer.
 The log might look like
-```
+  ```
 [23-02-2015] my/php/file.php [opened]
 [24-02-2015] my/php/file.php [opened]
 [24-02-2015] my/php/file.php [deleted]
@@ -132,7 +132,7 @@ You send the file over to the server and it renders it for you, that's it!
 
 - A program that creates a LERP between two images. maybe specify the amount of frames you want for the lerp?
 i.e.
-```
+  ```
 tween_images(from_image, to_image, frames=5)
 ```
 Would create 5 tween images.
@@ -144,22 +144,22 @@ It finds all functions in a file, greps through each function name. If that grep
 
 - AHK script. Add an item to the context menu that says 'move to VST directory?'. Clicking that will move the selected file to your VST directory
 
-- ```where-is``` a program that helps you find config files etc...
+- `where-is` a program that helps you find config files etc...
 i.e.
-`where-is grub config`
-
-Should output a possible list of locations
-
+  ```
+where-is grub config
 ```
+Should output a possible list of locations
+  ```
 /boot/default/grub.d
 /etc/grub.d
 ```
 
 - A MIDI drum track linter.
 i.e.
-```midi-lint drum-track.mid```
+  ```midi-lint drum-track.mid```
 outputs
-```
+  ```
 bar 4 : Drum is hitting 3 things at once. Drummers don't have 3 arms.
 bar 1 - 56 : hi-hat hits are too consistent. hits are usually strong on the first and 3rd beat and weak on 2nd and 4th
 bar 78 : Drumspeed is probably not possible with a human drummer, too fast.
@@ -168,13 +168,14 @@ etc...
 ```
 
 - A command-line utility to grep through sql.
-i.e. ```grepsql "sarah"  --db="people" ```
+i.e.:
+  ```grepsql "sarah"  --db="people" ```
 
 - A design linter for css files. Given a css file it highlights the bad aspects of it.
 i.e.
-```css-lint style.css```
+  ```css-lint style.css```
 Would output
-```
+  ```
 - found 12 font sizes, more than 3 is overkill
 - found multiple font families used, 2 is recommended
 - found multiple different colours used. Recommend no more than 5
@@ -199,12 +200,12 @@ Built using electron. also using that codepen form style.
 
 - A command-line utility that gets the extension of a file (Write it in scheme?)
 i.e.
-```
+  ```
 ext hello.jpg
 ext myfile.test.php
 ```
 Would output
-```
+  ```
 jpg
 php
 ```
@@ -228,14 +229,14 @@ i.e.
 It should have an API similar  to this
 `soundex_song('slim-shady.txt', amount=0.75)`
 
-The amount parameter should be how 'soundexed' the song is on a scale between 0 - 1. 1 would be every word, 0 would be no words.
+  The amount parameter should be how 'soundexed' the song is on a scale between 0 - 1. 1 would be every word, 0 would be no words.
 
 - Some sort of program that finds potentially hard-coded things to make us aware of them,
 i.e.
 
-This string `'You can register by 30th of June'` in a HTML template is a nono.
+  This string `'You can register by 30th of June'` in a HTML template is a nono.
 
-It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
+  It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
 
 - A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
 
