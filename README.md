@@ -195,6 +195,10 @@ Built using electron. also using that codepen form style.
     - Todo : Organise your stuff to do here
     - Notes : Basic rambling page
 
+- An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
+Basically somewhere to manage all the ideas, videos of jam sessions etc...
+
+
 - A web utility that generates an image either of a specified dimension size, or, filesize.
 
 - A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free. Something similar exists but doesn't just focus on software https://www.volunteermatch.org/
