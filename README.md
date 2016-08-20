@@ -132,6 +132,11 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 ### Local, interactive (desktop / command-line)
 
+- A gui to manage various apache things and that's not based around cPanel (eww). You should be able to
+  - Manage subdomains (create, remove etc...)
+  - Manage document roots
+  - Other stuff...?
+  
 - A desktop app that is basically just an input box where you enter a JIRA ticket and it'll open up the URL for you. If it's a project ticket, it'll open up the pull request page instead.
 
 - A desktop app which logs the time of each application that you view. i.e. it'll give you a breakdown of the total time spent on each program.
