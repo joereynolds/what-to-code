@@ -18,6 +18,8 @@ A few entries have been removed as they were ideas for work.
 
 - A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
 
+- Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
+- 
 - OCR. Submit an image and it tries to read the text of the image.
 
 - A log parser for HOMMV log files. Must be realtime (I.E. ```tail -f```). Use electron.
