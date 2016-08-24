@@ -76,7 +76,14 @@ i.e.:
   ```grepsql "sarah"  --db="people" ```
 
 - A regression testing CLI for CSS/HTML. On building a release it would take a screenshot of the current branch, and the master (or a specified image?) and if they did not match, it would warn of it and display the diffed image. You can use `ImageMagick` to diff images. See here: http://stackoverflow.com/questions/5132749/diff-an-image-using-imagemagick
-`PhantomCSS` is a thing, this might be good for our needs.
+`PhantomCSS` is a thing, but I was thinking of something less Node and more gnarly...
+Steps would include
+  - Visits the webpage on your branch
+  - Screenshots it
+  - Visits the webpage on the master branch
+  - Screenshots it
+  - Diffs them with imageMagick
+  - If there are differences, tells you about them
 
 - A design linter for css files. Given a css file it highlights the bad aspects of it.
 i.e.
