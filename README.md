@@ -132,7 +132,7 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 - Just like "inotify" tracks creation/modification of files, create something that allows one to track modification of individual **blocks** of specific files.  This probably needs to be a kernel module.
 
-- A graph-based sinbgle-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
+- A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
 
 ### Local, interactive (desktop / command-line)
 
