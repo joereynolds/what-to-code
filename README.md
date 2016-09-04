@@ -6,12 +6,22 @@ So, I took the liberty of putting my big list of ideas on Github :D
 ## Index
 
 [Local, non-interactive](#non-interactive) - ???
-[Local], interactive - ???
-[Improvements/Features] - Most of these are pull requests that could be made to improve various thing I like
-[Re-implementations] - These ideas already exist but they're fun anyway
-[ViM] - Various functions I would quite like to have in ViM
-[Websites] - Original website ideas that I'll never get around to doing :(
-[Service] - ???
+
+[Local, interactive](#interactive) - ???
+
+[Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
+
+[Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
+
+[ViM](#vim) - Various functions I would quite like to have in ViM
+
+[Websites](#websites) - Original website ideas that I'll never get around to doing :(
+
+[Service](#service) - ???
+
+[Unsorted](#unsorted) - Random non-categorised ideas
+
+[Final word](#final-word) - Meta things about the list
 
 (todo: better categories)
 
@@ -144,6 +154,7 @@ i.e.
 
 - A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
 
+<a name="interactive"></a>
 ### Local, interactive (desktop / command-line)
 
 - A gui to manage various apache things and that's not based around cPanel (eww). You should be able to
@@ -208,6 +219,7 @@ Built using electron. also using that codepen form style.
 
 - Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
 
+<a name="vim"></a>
 ### ViM
 
 - A ViM function that unit tests the current function your cursor is in.
@@ -218,6 +230,7 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 - A function that removes all trailing whitespace
 
+<a name="websites"></a>
 ### Websites
 
 - An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as
@@ -243,6 +256,7 @@ Bird Picture | Bird name | play button to listen to call | read more button
 
 - A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
+<a name="service"></a>
 ### Service
 
 - An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
@@ -276,6 +290,7 @@ You send the file over to the server and it renders it for you, that's it!
 
 - A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
 
+<a name="improvements"></a>
 ### Improvements / features
 
 - Make a PR to ajenti that prettifies PHP log files when you choose one.
@@ -293,6 +308,7 @@ You send the file over to the server and it renders it for you, that's it!
     - cellular automata?  (not only game of life!)
     - "5000 dots" http://www.scp-wiki.net/scp-1336
 
+<a name="reimplementation"></a>
 ### Re-implementations
 
 - A keylogger built using electron.
@@ -307,6 +323,7 @@ You send the file over to the server and it renders it for you, that's it!
 
 - Use a space-filling curve to walk an image. Does this yield anything interesting, e.g., more easily compressible?
 
+<a name="unsorted"></a>
 ### Unsorted
 
 - A web page with lots of tools to help make work easier.
@@ -316,7 +333,7 @@ You send the file over to the server and it renders it for you, that's it!
 - AHK script. Add an item to the context menu that says 'move to VST directory?'. Clicking that will move the selected file to your VST directory
 
 
-
+<a name="final-word"></a>
 ## Note
 
 These are the ideas that I thought of. As such, there are things in here specific to me
