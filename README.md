@@ -130,9 +130,7 @@ i.e.
 
   It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
 
-- A ViM function that unit tests the current function your cursor is in.
-i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
-`phpunit path/to/file functionName` under the hood
+
 
 - Given an image, you should convert it into a textbased equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 
@@ -205,6 +203,16 @@ Built using electron. also using that codepen form style.
 - Interactive editing of an image / it's Fourier transform, while being able to watch how they influence each other.
 
 - Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
+
+### ViM
+
+- A ViM function that unit tests the current function your cursor is in.
+i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
+`phpunit path/to/file functionName` under the hood
+
+- Function to turn a camelCase name into dash-separated for css files
+
+
 
 ### Websites
 
