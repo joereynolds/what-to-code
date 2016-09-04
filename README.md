@@ -5,23 +5,15 @@ So, I took the liberty of putting my big list of ideas on Github :D
 
 ## Index
 
-[Local, non-interactive](#non-interactive) - ???
-
-[Local, interactive](#interactive) - ???
-
-[Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
-
-[Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
-
-[ViM](#vim) - Various functions I would quite like to have in ViM
-
-[Websites](#websites) - Original website ideas that I'll never get around to doing :(
-
-[Service](#service) - ???
-
-[Unsorted](#unsorted) - Random non-categorised ideas
-
-[Final word](#final-word) - Meta things about the list
+1. [Local, non-interactive](#non-interactive) - ???
+2. [Local, interactive](#interactive) - ???
+3. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
+4. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
+5. [ViM](#vim) - Various functions I would quite like to have in ViM
+6. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
+7. [Service](#service) - ???
+8. [Unsorted](#unsorted) - Random non-categorised ideas
+9. [Final word](#final-word) - Meta things about the list
 
 <a name="non-interactive"></a>
 ### Local, non-interactive (command-line / daemon)
