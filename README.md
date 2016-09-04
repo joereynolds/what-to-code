@@ -1,8 +1,5 @@
 # what-to-code
 
-You probably find yourself unable to think of **what** to program.
-So, I took the liberty of putting my big list of ideas on Github :D
-
 ## Index
 
 1. [Local, non-interactive](#non-interactive) - ???
@@ -325,6 +322,9 @@ You send the file over to the server and it renders it for you, that's it!
 
 <a name="final-word"></a>
 ## Note
+
+You probably find yourself unable to think of **what** to program.
+So, I took the liberty of putting my big list of ideas on Github :D
 
 These are the ideas that I thought of. As such, there are things in here specific to me
 that I don't expect you to understand or want to implement.
