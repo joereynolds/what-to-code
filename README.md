@@ -212,7 +212,7 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 - Function to turn a camelCase name into dash-separated for css files
 
-
+- A function that removes all trailing whitespace
 
 ### Websites
 
