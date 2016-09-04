@@ -206,32 +206,41 @@ Built using electron. also using that codepen form style.
 
 - Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
 
-### Service (website, multi-party)
+### Websites
 
 - An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as
     - Todo : Organise your stuff to do here
     - Notes : Basic rambling page
-
-- An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
-Basically somewhere to manage all the ideas, videos of jam sessions etc...
-
-
+    
 - A web utility that generates an image either of a specified dimension size, or, filesize.
 
 - A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free. Something similar exists but doesn't just focus on software https://www.volunteermatch.org/
+
+- OpenGameMusic - A website for musicians to submit their music (to public domain or CC) and have it used by video game developers. This is largely based on [opengameart](opengameart.org) but focused entirely around music and with a better search.
 
 - Online version of snake with cool powerups.
 
 - A website that shows a listing of programs and its hotkeys.
 
-- A bot to farm neocoins from neopets
-
 - A webpage for steam games. Enter the game and it'll show you (or take you to) the person that has the most playtime for that game and their review. Only scrapes reviews.
-
-- A CSS framework that's based on flex and has good out of the box styling with minimal HTML boilerplate (opposite of bootstrap.).. You'll need to get clever with selectors for this one.
 
 - A website that is a database of bird calls. Would have a table format like this
 Bird Picture | Bird name | play button to listen to call | read more button
+
+- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
+
+- A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
+
+
+
+### Service
+
+- An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
+Basically somewhere to manage all the ideas, videos of jam sessions etc...
+
+- A bot to farm neocoins from neopets
+
+- A CSS framework that's based on flex and has good out of the box styling with minimal HTML boilerplate (opposite of bootstrap.).. You'll need to get clever with selectors for this one.
 
 - An online bot that listens on ebay for a product and when it goes to the price threshold you set, it buys it for you. iMarcos + PHP?
 
@@ -253,15 +262,9 @@ You send the file over to the server and it renders it for you, that's it!
 
 - An open source, free hostel booking program similar to dorm booker, but free and more featureful
 
-- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
-
-- A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
-
 - Pokemon cry analyser - given a pokemons cry, analyse the waveform and return back the pokemon it came from.
 
 - A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
-
-- Pair Programming, Peer Finder website.
 
 ### Improvements / features
 
