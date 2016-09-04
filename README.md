@@ -3,15 +3,19 @@
 You probably find yourself unable to think of **what** to program.
 So, I took the liberty of putting my big list of ideas on Github :D
 
-## Note
+## Index
 
-These are the ideas that I thought of. As such, there are things in here specific to me
-that I don't expect you to understand or want to implement.
+[Local, non-interactive](#non-interactive) - ???
+[Local], interactive - ???
+[Improvements/Features] - Most of these are pull requests that could be made to improve various thing I like
+[Re-implementations] - These ideas already exist but they're fun anyway
+[ViM] - Various functions I would quite like to have in ViM
+[Websites] - Original website ideas that I'll never get around to doing :(
+[Service] - ???
 
-A few entries have been removed as they were ideas for work.
+(todo: better categories)
 
-## On with the show!
-
+<a name="non-interactive"></a>
 ### Local, non-interactive (command-line / daemon)
 
 - A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
@@ -239,8 +243,6 @@ Bird Picture | Bird name | play button to listen to call | read more button
 
 - A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
-
-
 ### Service
 
 - An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
@@ -312,3 +314,12 @@ You send the file over to the server and it renders it for you, that's it!
 - Melvin and Waldorf.
 
 - AHK script. Add an item to the context menu that says 'move to VST directory?'. Clicking that will move the selected file to your VST directory
+
+
+
+## Note
+
+These are the ideas that I thought of. As such, there are things in here specific to me
+that I don't expect you to understand or want to implement.
+
+A few entries have been removed as they were ideas for work.
