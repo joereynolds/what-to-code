@@ -23,8 +23,6 @@ So, I took the liberty of putting my big list of ideas on Github :D
 
 [Final word](#final-word) - Meta things about the list
 
-(todo: better categories)
-
 <a name="non-interactive"></a>
 ### Local, non-interactive (command-line / daemon)
 
