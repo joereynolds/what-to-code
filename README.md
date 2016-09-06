@@ -12,42 +12,10 @@
 8. [Unsorted](#unsorted) - Random non-categorised ideas
 9. [Final word](#final-word) - Meta things about the list
 
-<a name="non-interactive"></a>
-### Local, non-interactive (command-line / daemon)
-
-- A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
-
-- A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
-
-
-- Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
-
-
-- OCR. Submit an image and it tries to read the text of the image.
-
-- A log parser for HOMMV log files. Must be realtime (I.E. ```tail -f```). Use electron.
-
-- A glyph generator. It creates a glyph for each letter of the alphabet and saves it in a font file.
+<a name="command-line"></a>
+### Command line
 
 - A command line music theory program (this is already planned out just not built) **created** https://github.com/joereynolds/cmaj
-
-- A bash shell script/program that logs all the files you've written to (and maybe there line numbers) for x amount of time. (preferably 1 year). That way, when someone asks you 'You know that change for the PEAR email library, what was it?' you can come back with an answer.
-The log might look like
-  ```
-[23-02-2015] my/php/file.php [opened]
-[24-02-2015] my/php/file.php [opened]
-[24-02-2015] my/php/file.php [deleted]
-```
-
-- A program that creates a LERP between two images. maybe specify the amount of frames you want for the lerp?
-i.e.
-  ```
-tween_images(from_image, to_image, frames=5)
-```
-Would create 5 tween images.
-
-- A program that finds dead functions (ones not used).
-It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
 
 - `where-is` a program that helps you find config files etc...
 i.e.
@@ -59,6 +27,20 @@ Should output a possible list of locations
 /boot/default/grub.d
 /etc/grub.d
 ```
+
+- A command-line utility that gets the extension of a file (Write it in scheme?)
+i.e.
+  ```
+ext hello.jpg
+ext myfile.test.php
+```
+Would output
+  ```
+jpg
+php
+```
+
+
 
 - A MIDI drum track linter.
 i.e.
@@ -99,17 +81,44 @@ Would output
 - found non standard media query sizes...why?
 ```
 
-- A command-line utility that gets the extension of a file (Write it in scheme?)
+
+<a name="non-interactive"></a>
+### Local, non-interactive (command-line / daemon)
+
+- A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
+
+- A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
+
+- Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
+
+
+- OCR. Submit an image and it tries to read the text of the image.
+
+- A log parser for HOMMV log files. Must be realtime (I.E. ```tail -f```). Use electron.
+
+- A glyph generator. It creates a glyph for each letter of the alphabet and saves it in a font file.
+
+
+
+- A bash shell script/program that logs all the files you've written to (and maybe there line numbers) for x amount of time. (preferably 1 year). That way, when someone asks you 'You know that change for the PEAR email library, what was it?' you can come back with an answer.
+The log might look like
+  ```
+[23-02-2015] my/php/file.php [opened]
+[24-02-2015] my/php/file.php [opened]
+[24-02-2015] my/php/file.php [deleted]
+```
+
+- A program that creates a LERP between two images. maybe specify the amount of frames you want for the lerp?
 i.e.
   ```
-ext hello.jpg
-ext myfile.test.php
+tween_images(from_image, to_image, frames=5)
 ```
-Would output
-  ```
-jpg
-php
-```
+Would create 5 tween images.
+
+- A program that finds dead functions (ones not used).
+It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
+
+
 
 - word ladder that goes from one word to another ideally in the shortest amount of steps as possible
 e.g. Dog to Fig = Dog -> Dig -> Fig
@@ -321,7 +330,7 @@ You send the file over to the server and it renders it for you, that's it!
 
 
 <a name="final-word"></a>
-## Note
+## Final word
 
 You probably find yourself unable to think of **what** to program.
 So, I took the liberty of putting my big list of ideas on Github :D
