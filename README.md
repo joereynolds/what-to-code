@@ -2,15 +2,16 @@
 
 ## Index
 
-1. [Local, non-interactive](#non-interactive) - ???
-2. [Local, interactive](#interactive) - ???
-3. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
-4. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
-5. [ViM](#vim) - Various functions I would quite like to have in ViM
-6. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
-7. [Service](#service) - ???
-8. [Unsorted](#unsorted) - Random non-categorised ideas
-9. [Final word](#final-word) - Meta things about the list
+1. [Command line](#command-line)
+2. [Local, non-interactive](#non-interactive) - ???
+3. [Local, interactive](#interactive) - ???
+4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
+5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
+6. [ViM](#vim) - Various functions I would quite like to have in ViM
+7. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
+8. [Service](#service) - ???
+9. [Unsorted](#unsorted) - Random non-categorised ideas
+10. [Final word](#final-word) - Meta things about the list
 
 <a name="command-line"></a>
 ### Command line
