@@ -5,7 +5,7 @@
 1. [Command line](#command-line)
 2. [Local, non-interactive](#non-interactive) - ???
 3. [Desktop apps](#desktop)
-3. [Games](#games) - ???
+3. [Games](#games)
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
 5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
 6. [ViM](#vim) - Various functions I would quite like to have in ViM
