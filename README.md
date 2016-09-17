@@ -4,6 +4,7 @@
 
 1. [Command line](#command-line)
 2. [Local, non-interactive](#non-interactive) - ???
+3. [Desktop apps](#desktop)
 3. [Local, interactive](#interactive) - ???
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
 5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
@@ -12,6 +13,9 @@
 8. [Service](#service) - ???
 9. [Unsorted](#unsorted) - Random non-categorised ideas
 10. [Final word](#final-word) - Meta things about the list
+
+If you make any of these, let me know!
+If you make them and they're not FOSS, don't let me know.
 
 <a name="command-line"></a>
 ### Command line
@@ -100,7 +104,6 @@ Would output
 - A glyph generator. It creates a glyph for each letter of the alphabet and saves it in a font file.
 
 
-
 - A bash shell script/program that logs all the files you've written to (and maybe there line numbers) for x amount of time. (preferably 1 year). That way, when someone asks you 'You know that change for the PEAR email library, what was it?' you can come back with an answer.
 The log might look like
   ```
@@ -151,8 +154,11 @@ i.e.
 
 - A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
 
-<a name="interactive"></a>
-### Local, interactive (desktop / command-line)
+<a name="desktop"></a>
+### Desktop apps
+
+- A basic video editor. It should handle the bare minimum (yet useful features)
+  - Merge two videos together
 
 - A gui to manage various apache things and that's not based around cPanel (eww). You should be able to
   - Manage subdomains (create, remove etc...)
@@ -178,30 +184,14 @@ Here's one idea of how it would look
 That'd spit out a CPU-usage bar showing usage in percent.
 **Created** https://github.com/joereynolds/fanbox
 
-- A tamagotchi.
+
+- A desktop app. A metronome a decent one. One that can handle complex time signatures and handle bars too. i.e. 1 bar of 7/8 and then the next bar is 5/4. Should also be able to handle multiple tempos across bars
 
 - A desktop app that profiles code. i.e. runs a function 100 times and outputs a csv/txt file of the results.
-
-- An alchemy kinda game - Grow a garden of different plants that need certain conditions. when plants have grown, mush em up and make potions
-
-- Defend your castle game
 
 - Porn keyboard
 Get samples of womens moans from the low E to the 12th fret on the high e. Map these to a MIDI keyboard in kontakt.
 Try and get multiple samples per note to allow for variety.
-
-- The jetpack game
-
-- A desktop app. A metronome a decent one. One that can handle complex time signatures and handle bars too. i.e. 1 bar of 7/8 and then the next bar is 5/4. Should also be able to handle multiple tempos across bars
-
-- A to-do list app based around Ben Elijah's principles.
-
-- A desktop/web mailing list manager.
-
-- A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in chrome opens up a file explorer but on most desktop apps it opens up the preferences. Fix this. Could maybe just be a github repo?
-
-- A desktop app that uses the notifications api to push any PHP errors to it.
-(If errors are too frequent, think of a better way)
 
 - A gui for partitioning USB's/disks.
 Use electron and the style of form in the codepen.
@@ -210,9 +200,28 @@ without using a cmdline.
 
 - A GUI to easily manage adding/removing context menu entries.
 Built using electron. also using that codepen form style.
+
+- A desktop app that uses the notifications api to push any PHP errors to it.
+(If errors are too frequent, think of a better way)
+
+- A desktop mailing list manager.
+
+<a name="interactive"></a>
+### Local, interactive (desktop / command-line)
+
 - A joke searcher. Given a JSON file of jokes and their category, it'll dynamically load them in.
 
-- Interactive editing of an image / it's Fourier transform, while being able to watch how they influence each other.
+- A tamagotchi.
+
+- An alchemy kinda game - Grow a garden of different plants that need certain conditions. when plants have grown, mush em up and make potions
+
+- Defend your castle game
+
+- The jetpack game
+
+- A to-do list app based around Ben Elijah's principles.
+
+- A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in chrome opens up a file explorer but on most desktop apps it opens up the preferences. Fix this. Could maybe just be a github repo?
 
 - Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
 
