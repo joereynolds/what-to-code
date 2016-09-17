@@ -5,7 +5,7 @@
 1. [Command line](#command-line)
 2. [Local, non-interactive](#non-interactive) - ???
 3. [Desktop apps](#desktop)
-3. [Local, interactive](#interactive) - ???
+3. [Games](#games) - ???
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
 5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
 6. [ViM](#vim) - Various functions I would quite like to have in ViM
@@ -44,7 +44,6 @@ Would output
 jpg
 php
 ```
-
 
 
 - A MIDI drum track linter.
@@ -122,8 +121,6 @@ Would create 5 tween images.
 - A program that finds dead functions (ones not used).
 It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
 
-
-
 - word ladder that goes from one word to another ideally in the shortest amount of steps as possible
 e.g. Dog to Fig = Dog -> Dig -> Fig
 or
@@ -143,8 +140,6 @@ i.e.
   This string `'You can register by 30th of June'` in a HTML template is a nono.
 
   It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
-
-
 
 - Given an image, you should convert it into a textbased equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 
@@ -206,10 +201,8 @@ Built using electron. also using that codepen form style.
 
 - A desktop mailing list manager.
 
-<a name="interactive"></a>
-### Local, interactive (desktop / command-line)
-
-- A joke searcher. Given a JSON file of jokes and their category, it'll dynamically load them in.
+<a name="games"></a>
+### Games
 
 - A tamagotchi.
 
@@ -217,13 +210,10 @@ Built using electron. also using that codepen form style.
 
 - Defend your castle game
 
-- The jetpack game
+- The jetpack game: You're a stickman who needs to get to the otherside of the map in his jetpack without hitting any obstacles.
+ 
+- Melvin and Waldorf: A couch-co-op platformer.(vague, I know)
 
-- A to-do list app based around Ben Elijah's principles.
-
-- A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in chrome opens up a file explorer but on most desktop apps it opens up the preferences. Fix this. Could maybe just be a github repo?
-
-- Things that let's one explore / play with [Lorentz Transformation](https://en.wikipedia.org/wiki/Lorentz_transformation) in order to get a better understanding.  For example, it should allow me to recreate the [Ladder Paradox](https://en.wikipedia.org/wiki/Ladder_paradox).  In short: the "paradox" works perfectly fine in this model (but not in space-only dilation or time-only dilation), specifically: from the ladder's point of view, the "opposite" door opens first.
 
 <a name="vim"></a>
 ### ViM
@@ -239,8 +229,10 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 <a name="websites"></a>
 ### Websites
 
-- An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as
-    - Todo : Organise your stuff to do here
+- A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in chrome opens up a file explorer but on most desktop apps it opens up the preferences. Fix this. Could maybe just be a github repo?
+
+- An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as (maybe base it around Ben Elijah's principles)
+    - Todo : Organise your stuff to do here 
     - Notes : Basic rambling page
     
 - A web utility that generates an image either of a specified dimension size, or, filesize.
@@ -327,16 +319,11 @@ You send the file over to the server and it renders it for you, that's it!
 
 - Something to draw (and maybe interact with) [Apollonian Gaskets](https://en.wikipedia.org/wiki/Apollonian_gasket) (a kind of fractal)
 
-- Use a space-filling curve to walk an image. Does this yield anything interesting, e.g., more easily compressible?
 
 <a name="unsorted"></a>
 ### Unsorted
 
 - A web page with lots of tools to help make work easier.
-
-- Melvin and Waldorf.
-
-- AHK script. Add an item to the context menu that says 'move to VST directory?'. Clicking that will move the selected file to your VST directory
 
 
 <a name="final-word"></a>
