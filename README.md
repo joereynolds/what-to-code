@@ -228,6 +228,10 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
 
+- A plugin that shows the valuable of a variable (if defined) on hovering over that text. For example
+If my cursor is on any letter in `self::NEW_TASK_ID` then above it I should see the omnicomplete box thing with
+`43000` in it for example.
+
 <a name="websites"></a>
 ### Websites
 
