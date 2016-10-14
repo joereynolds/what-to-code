@@ -121,6 +121,8 @@ Would create 5 tween images.
 - A program that finds dead functions (ones not used).
 It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
 
+This is a very naive way of looking at it but it will work for most cases where people aren't doing devilish things with eval or 'variable variables'
+
 - word ladder that goes from one word to another ideally in the shortest amount of steps as possible
 e.g. Dog to Fig = Dog -> Dig -> Fig
 or
