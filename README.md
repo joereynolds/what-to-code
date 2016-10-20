@@ -234,6 +234,8 @@ i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the 
 If my cursor is on any letter in `self::NEW_TASK_ID` then above it I should see the omnicomplete box thing with
 `43000` in it for example.
 
+- A re-mapping of some of PHPStorm's cool features. For instance ctrl+alt+shift+n searches for a function with that name in that file. This could be remapped by doing /n searchTerm
+
 <a name="websites"></a>
 ### Websites
 
