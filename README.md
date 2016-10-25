@@ -33,6 +33,8 @@ Should output a possible list of locations
 /etc/grub.d
 ```
 
+- A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any filetype, not just csv's.
+
 - A command-line utility that gets the extension of a file (Write it in scheme?)
 i.e.
   ```
