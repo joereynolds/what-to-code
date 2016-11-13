@@ -158,6 +158,13 @@ i.e.
 
 - A basic video editor. It should handle the bare minimum (yet useful features)
   - Merge two videos together
+  
+- A cross platform podcast manager, (see gpodder). Build on Electron? You should be able to:
+  - Add/Remove podcast subscriptions
+  - Tag subscriptions (Programming, Music, Creative etc...)
+  - Search by tag
+  - View by tag
+  - etc...
 
 - A gui to manage various apache things and that's not based around cPanel (eww). You should be able to
   - Manage subdomains (create, remove etc...)
