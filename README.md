@@ -3,7 +3,7 @@
 ## Index
 
 1. [Command line](#command-line)
-2. [Local, non-interactive](#non-interactive) - ???
+2. [Local, non-interactive tools](#non-interactive)
 3. [Desktop apps](#desktop)
 3. [Games](#games)
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
@@ -267,7 +267,8 @@ If my cursor is on any letter in `self::NEW_TASK_ID` then above it I should see 
 - A webpage for steam games. Enter the game and it'll show you (or take you to) the person that has the most playtime for that game and their review. Only scrapes reviews.
 
 - A website that is a database of bird calls. Would have a table format like this
-Bird Picture | Bird name | play button to listen to call | read more button
+Bird Picture | Bird name | play button to listen to call | read more button  
+  Could be scraped from [xeno-canto.org](http://www.xeno-canto.org/)
 
 - A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
 
