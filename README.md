@@ -3,7 +3,7 @@
 ## Index
 
 1. [Command line](#command-line)
-2. [Local, non-interactive](#non-interactive) - ???
+2. [Local, non-interactive tools](#non-interactive)
 3. [Desktop apps](#desktop)
 3. [Games](#games)
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
@@ -33,7 +33,7 @@ Should output a possible list of locations
 /etc/grub.d
 ```
 
-- A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any filetype, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust.
+- A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust.
 
 - A command-line utility that gets the extension of a file (Write it in scheme?)
 i.e.
@@ -60,7 +60,7 @@ bar 98 : Machine-gun snare. Vary the velocities of the snare drum.
 etc...
 ```
 
-- A command-line utility to grep through sql.
+- A command-line utility to grep through SQL.
 i.e.:
   ```grepsql "sarah"  --db="people" ```
 
@@ -120,8 +120,10 @@ tween_images(from_image, to_image, frames=5)
 ```
 Would create 5 tween images.
 
-- A program that finds dead functions (ones not used).
-It finds all functions in a file, greps through each function name. If that grep brings back nothing, then it's not used (provided it's only used in one codebase that is..)
+- A program that finds dead functions (ones not used).  
+  It finds all functions in a file, greps through each function name.
+  If that grep brings back nothing, then it's not used (provided it's
+  only used in one codebase that is..)
 
 This is a very naive way of looking at it but it will work for most cases where people aren't doing devilish things with eval or 'variable variables'
 
@@ -145,7 +147,7 @@ i.e.
 
   It should warn/flag it up and output something like 'You can register by REGISTRATION_DATE'
 
-- Given an image, you should convert it into a textbased equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
+- Given an image, you should convert it into a text-based equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 
 - Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
 
@@ -196,7 +198,7 @@ That'd spit out a CPU-usage bar showing usage in percent.
 - A desktop app that profiles code. i.e. runs a function 100 times and outputs a csv/txt file of the results.
 
 - Porn keyboard
-Get samples of womens moans from the low E to the 12th fret on the high e. Map these to a MIDI keyboard in kontakt.
+Get samples of women's moans from the low E to the 12th fret on the high e. Map these to a MIDI keyboard in kontakt.
 Try and get multiple samples per note to allow for variety.
 
 - A gui for partitioning USB's/disks.
@@ -221,7 +223,7 @@ Built using electron. also using that codepen form style.
 
 - Defend your castle game
 
-- The jetpack game: You're a stickman who needs to get to the otherside of the map in his jetpack without hitting any obstacles.
+- The jetpack game: You're a stickman who needs to get to the other side of the map in his jetpack without hitting any obstacles.
  
 - Melvin and Waldorf: A couch-co-op platformer.(vague, I know)
 
@@ -267,11 +269,12 @@ If my cursor is on any letter in `self::NEW_TASK_ID` then above it I should see 
 - A webpage for steam games. Enter the game and it'll show you (or take you to) the person that has the most playtime for that game and their review. Only scrapes reviews.
 
 - A website that is a database of bird calls. Would have a table format like this
-Bird Picture | Bird name | play button to listen to call | read more button
+Bird Picture | Bird name | play button to listen to call | read more button  
+  Could be scraped from [xeno-canto.org](http://www.xeno-canto.org/)
 
 - A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
 
-- A website which contains a database of instrumentation for songs. You can seearch for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
+- A website which contains a database of instrumentation for songs. You can search for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
 <a name="service"></a>
 ### Service
@@ -283,7 +286,7 @@ Basically somewhere to manage all the ideas, videos of jam sessions etc...
 
 - A CSS framework that's based on flex and has good out of the box styling with minimal HTML boilerplate (opposite of bootstrap.).. You'll need to get clever with selectors for this one.
 
-- An online bot that listens on ebay for a product and when it goes to the price threshold you set, it buys it for you. iMarcos + PHP?
+- An online bot that listens on ebay for a product and when it goes to the price threshold you set, it buys it for you. iMacros + PHP?
 
 - MusiCSS. A CSS library based around music notation
 
@@ -293,7 +296,7 @@ Basically somewhere to manage all the ideas, videos of jam sessions etc...
 
 - An amazon monitoring program that monitors whatever products you tell it to and it'll tell you when it's
 a) dropped in price
-b)a new marketplace seller has added the item and is lower than the previous one
+b) a new marketplace seller has added the item and is lower than the previous one
 Alternatively, you can give it a price and if it ever reaches that price, it'll email you.
 
 - A site generator based on markdown files and no setup.
