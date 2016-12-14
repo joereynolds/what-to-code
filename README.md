@@ -49,7 +49,7 @@ php
 
 - A command-line program that generates a random string that is N characters long.
 i.e.
-```
+  ```
 chars 10
 gwrtp+5gl~
 ```
