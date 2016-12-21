@@ -54,6 +54,23 @@ chars 10
 gwrtp+5gl~
 ```
 
+- An endpoint tester/fuzzer, i.e. if you have the following endpoint
+`http://services/preferences?customerid=23543&group_id=1`
+You could feed it to the program like this
+`fuzz http://services/preferences?customerid={{INT}}&group_id={{INT}}`
+
+Note that we've specified the data types of the parameters. This is so that we can fuzz appropriately.
+Now, the `fuzz` program will attempt various different datasets on it, for example it would call these (through curl probably)
+
+`http://services/preferences?customerid=-23&group_id=3` (negative number)
+`http://services/preferences?customerid=000001&group_id=5` (leading zeroes)
+`http://services/preferences?customerid=5&group_id=9999999999999999999999999999999999999999` (large number)
+`http://services/preferences?customerid=7&group_id=-9999999999999999999999999999999999999999` (large negative number)
+`http://services/preferences?customerid=&group_id=` (empty parameters)
+
+
+
+Any that produce an error, would report back to you through the CLI with the error message and the url that caused the error.
 
 - A MIDI drum track linter.
 i.e.
