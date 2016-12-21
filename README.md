@@ -104,6 +104,7 @@ Would output
 
 - Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
 
+- MySQL linter - Given a file, it'll show you where the errors are, what possible caused those errors (instead of the god awful mysql error reporting) etc...
 
 - OCR. Submit an image and it tries to read the text of the image.
 
