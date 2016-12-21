@@ -55,9 +55,13 @@ gwrtp+5gl~
 ```
 
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
+
 `http://services/preferences?customerid=23543&group_id=1`
+
 You could feed it to the program like this
+
 `fuzz http://services/preferences?customerid={{INT}}&group_id={{INT}}`
+
 
 Note that we've specified the data types of the parameters. This is so that we can fuzz appropriately.
 Now, the `fuzz` program will attempt various different datasets on it, for example it would call these (through curl probably)
