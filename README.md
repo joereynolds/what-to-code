@@ -63,11 +63,14 @@ Note that we've specified the data types of the parameters. This is so that we c
 Now, the `fuzz` program will attempt various different datasets on it, for example it would call these (through curl probably)
 
 `http://services/preferences?customerid=-23&group_id=3` (negative number)
-`http://services/preferences?customerid=000001&group_id=5` (leading zeroes)
-`http://services/preferences?customerid=5&group_id=9999999999999999999999999999999999999999` (large number)
-`http://services/preferences?customerid=7&group_id=-9999999999999999999999999999999999999999` (large negative number)
-`http://services/preferences?customerid=&group_id=` (empty parameters)
 
+`http://services/preferences?customerid=000001&group_id=5` (leading zeroes)
+
+`http://services/preferences?customerid=5&group_id=9999999999999999999999999999999999999999` (large number)
+
+`http://services/preferences?customerid=7&group_id=-9999999999999999999999999999999999999999` (large negative number)
+
+`http://services/preferences?customerid=&group_id=` (empty parameters)
 
 
 Any that produce an error, would report back to you through the CLI with the error message and the url that caused the error.
