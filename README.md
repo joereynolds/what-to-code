@@ -46,6 +46,21 @@ Would output
 jpg
 php
 ```
+Or just use basic GNU tools (might require slightly differently options on BSD/Mac), some examples I needed recently:
+  ```
+$ find . -type f -printf '%f\n' | grep -Eo '\.[^.]$' | sort | uniq -c | sort -n
+     82 .mid
+    267 .m4a
+    567 .ogg
+    575 .opus
+   3392 .aac
+$ find . -type f -printf '%f\n' | grep -Eo '\.[^.]$' | sort -u
+.aac
+.m4a
+.mid
+.ogg
+.opus
+```
 
 - A command-line program that generates a random string that is N characters long.
 i.e.
