@@ -318,6 +318,23 @@ Basically somewhere to manage all the ideas, videos of jam sessions etc...
 
 - A CSS framework that's based on flex and has good out of the box styling with minimal HTML boilerplate (opposite of bootstrap.).. You'll need to get clever with selectors for this one.
 
+- A page to dump laravel queries and have them transformed into raw sql. For example
+```
+   $this->db->table('customers.person')
+       ->select(
+           $this->db->raw(
+                "IF(
+                       email REGEXP '.+@.+\..+', email, IF (email2 REGEXP '.+@.+\..+', email2, NULL)
+                   ) AS email"
+               )
+           )
+       ->where('personId', $personId)
+       ->first()->email;
+```
+
+Should be transformed into the SQL equivalent.
+
+
 - An online bot that listens on ebay for a product and when it goes to the price threshold you set, it buys it for you. iMacros + PHP?
 
 - MusiCSS. A CSS library based around music notation
