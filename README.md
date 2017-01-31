@@ -11,8 +11,6 @@
 6. [ViM](#vim) - Various functions I would quite like to have in ViM
 7. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
 8. [Service](#service) - ???
-9. [Unsorted](#unsorted) - Random non-categorised ideas
-10. [Final word](#final-word) - Meta things about the list
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
@@ -393,21 +391,3 @@ You send the file over to the server and it renders it for you, that's it!
 - Fetch Current Weather – Get the current weather for a given zip/postal code.
 
 - Something to draw (and maybe interact with) [Apollonian Gaskets](https://en.wikipedia.org/wiki/Apollonian_gasket) (a kind of fractal)
-
-
-<a name="unsorted"></a>
-### Unsorted
-
-- A web page with lots of tools to help make work easier.
-
-
-<a name="final-word"></a>
-## Final word
-
-You probably find yourself unable to think of **what** to program.
-So, I took the liberty of putting my big list of ideas on Github :D
-
-These are the ideas that I thought of. As such, there are things in here specific to me
-that I don't expect you to understand or want to implement.
-
-A few entries have been removed as they were ideas for work.
