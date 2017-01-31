@@ -288,6 +288,8 @@ If my cursor is on any letter in `self::NEW_TASK_ID` then above it I should see 
     - Todo : Organise your stuff to do here 
     - Notes : Basic rambling page
     
+- An online calendar that doesn't require login or auth. You create a calendar and get a permalink. Anyone with that permalink is free to add events etc...
+
 - A web utility that generates an image either of a specified dimension size, or, filesize.
 
 - A website that shows a listing of work that charities/free people need. Devs then pick a project and get to work on (hopefully) doing something good for free. Something similar exists but doesn't just focus on software https://www.volunteermatch.org/
