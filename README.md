@@ -154,6 +154,7 @@ Would create 5 tween images.
   It finds all functions in a file, greps through each function name.
   If that grep brings back nothing, then it's not used (provided it's
   only used in one codebase that is..)
+  Here's my attempt https://gist.github.com/joereynolds/1cdc040605d7751714b7ef66e77d4795
 
 This is a very naive way of looking at it but it will work for most cases where people aren't doing devilish things with eval or 'variable variables'
 
