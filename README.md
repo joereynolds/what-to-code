@@ -189,6 +189,9 @@ i.e.
 <a name="desktop"></a>
 ### Desktop apps
 
+- An apache access log file viewer. Should show things by column, handle regex etc...
+Things like Graylog are a bit too overkill for this and there are no simple alternatives for linux.
+
 - A basic video editor. It should handle the bare minimum (yet useful features)
   - Merge two videos together
   
