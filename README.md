@@ -52,6 +52,8 @@ chars 10
 gwrtp+5gl~
 ```
 
+**Created** https://github.com/Shagon94/chars
+
 - (Could also be a webpage) A password hasher. You give it a string and the type of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted string.
 
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
