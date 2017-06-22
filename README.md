@@ -272,6 +272,9 @@ i.e.
 - A ViM function that unit tests the current function your cursor is in.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
+  
+- A function/plugin that moves a visual selection into its own file. Useful for refactoring large files into smaller ones.
+It would only create files, not append to pre-existing files
 
 - Function to turn a camelCase name into dash-separated for css files
 
