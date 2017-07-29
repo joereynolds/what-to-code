@@ -58,6 +58,8 @@ If you make them and they're not FOSS, don't let me know.
 
 - (Could also be a webpage) A password hasher. You give it a string and the type of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted string.
 
+**Created** https://github.com/DakshMiglani/passwordjs
+
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
 
   `http://services/preferences?customerid=23543&group_id=1`
