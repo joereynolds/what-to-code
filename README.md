@@ -166,7 +166,7 @@ i.e.
 - word ladder that goes from one word to another ideally in the shortest amount of steps as possible
   e.g. Dog to Fig = Dog -> Dig -> Fig
   or
-  Dog -> Fog -> Fig
+  Dog -> Fog -> Fig **created** https://gist.github.com/bennydictor/00723b6708cb484e56a350613658f061
 
 - A soundex-ifier for songs, it changes the lyrics of the song to words that sound like that word.
   i.e.
