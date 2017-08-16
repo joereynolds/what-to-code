@@ -33,6 +33,8 @@ If you make them and they're not FOSS, don't let me know.
 
 - A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust. **created** https://github.com/garrettm/splitters
 
+- A front end to gtags-cscope
+
 - A better `cd`. You just type `cd Directory` and then it will try and go to the directory called `Directory`. If multiple results are found, it populates a list for you to choose from.
 
 - A command-line utility that gets the extension of a file (Write it in scheme?) **created** https://github.com/Natfan/FunLittleThings/tree/master/FileExtension
