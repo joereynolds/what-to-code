@@ -284,6 +284,8 @@ It would only create files, not append to pre-existing files
 
 - A function that removes all trailing whitespace
 
+**Created** https://github.com/koryschneider/vim-trim
+
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
 
 - A plugin that shows the valuable of a variable (if defined) on hovering over that text. For example
