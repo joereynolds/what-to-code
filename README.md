@@ -328,6 +328,8 @@ It would only create files, not append to pre-existing files
 <a name="service"></a>
 ### Service
 
+- A program that orders stuff of ebay. You pump it with £365 and everyday it'll order one new item and have it delivered to work with that persons name, then, it's their lucky day!
+
 - An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
   Basically somewhere to manage all the ideas, videos of jam sessions etc...
 
