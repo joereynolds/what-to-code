@@ -37,7 +37,7 @@ If you make them and they're not FOSS, don't let me know.
 
 - A better `cd`. You just type `cd Directory` and then it will try and go to the directory called `Directory`. If multiple results are found, it populates a list for you to choose from.
 
-- A command-line utility that gets the extension of a file (Write it in scheme?) **created** https://github.com/Natfan/FunLittleThings/tree/master/FileExtension
+- A command-line utility that gets the extension of a file (Write it in scheme?)
   i.e.
   ```
   ext hello.jpg
@@ -56,11 +56,8 @@ If you make them and they're not FOSS, don't let me know.
   gwrtp+5gl~
   ```
 
-**Created** https://github.com/Shagon94/chars
 
 - (Could also be a webpage) A password hasher. You give it a string and the type of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted string.
-
-**Created** https://github.com/DakshMiglani/passwordjs
 
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
 
@@ -311,8 +308,6 @@ db_mappings = [
 ```
 In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs` are the related tables and then nested inside them are their columns. Typing in an sql file should first look in the database for a matching word, if none found, check the tables, and then finally, columns.
 
-**Created** https://github.com/koryschneider/vim-trim
-
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
 
 - A plugin that shows the valuable of a variable (if defined) on hovering over that text. For example
@@ -348,7 +343,8 @@ In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs
   Bird Picture | Bird name | play button to listen to call | read more button  
   Could be scraped from [xeno-canto.org](http://www.xeno-canto.org/)
 
-- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
+- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...
+**Created** http://util.joereynoldsaudio.com/util/rawtext
 
 - A website which contains a database of instrumentation for songs. You can search for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
