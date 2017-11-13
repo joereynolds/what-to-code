@@ -286,7 +286,7 @@ It would only create files, not append to pre-existing files
 
 - A plugin that correctly infers databases, tables and columns through autocompletion. One way of doing this would be to hold an in-memory dictionary of mappings of the form db->table->column
 The structure may look like this
-
+```
 db_mappings = [
     'customer_portal':
         customer:
@@ -308,7 +308,7 @@ db_mappings = [
      more dbs here...
      ...
 ]
-
+```
 In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs` are the related tables and then nested inside them are their columns. Typing in an sql file should first look in the database for a matching word, if none found, check the tables, and then finally, columns.
 
 **Created** https://github.com/koryschneider/vim-trim
