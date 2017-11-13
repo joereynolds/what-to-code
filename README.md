@@ -284,6 +284,33 @@ It would only create files, not append to pre-existing files
 
 - A function that removes all trailing whitespace
 
+- A plugin that correctly infers databases, tables and columns through autocompletion. One way of doing this would be to hold an in-memory dictionary of mappings of the form db->table->column
+The structure may look like this
+
+db_mappings = [
+    'customer_portal':
+        customer:
+            account:
+                id,
+                first_name,
+                last_name,
+                created_at,
+        transactions:
+            id,
+            created_at,
+            type,
+            request
+        logs:
+            id,
+            action,
+            updated_at
+     ,
+     more dbs here...
+     ...
+]
+
+In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs` are the related tables and then nested inside them are their columns. Typing in an sql file should first look in the database for a matching word, if none found, check the tables, and then finally, columns.
+
 **Created** https://github.com/koryschneider/vim-trim
 
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
