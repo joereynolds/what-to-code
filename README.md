@@ -308,6 +308,8 @@ db_mappings = [
 ```
 In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs` are the related tables and then nested inside them are their columns. Typing in an sql file should first look in the database for a matching word, if none found, check the tables, and then finally, columns.
 
+- A plugin that adds more command line replacements. For example `%` already stands for the current file, it'd be good if we could do `c` for the current class we're in, or `f` for function (use different letters as they're too generic)
+
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
 
 - A plugin that shows the valuable of a variable (if defined) on hovering over that text. For example
