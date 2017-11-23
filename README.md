@@ -274,6 +274,25 @@ i.e.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
   
+- A modern version of the dbext plugin. It would be able to use mysql, postgres etc... but also able to set up a connection through a docker container (or any other thing really). Features in mind
+  - Run current line as SQL statement
+  - Run file as SQL statement
+  - SELECTing should bring back the results in a buffer which can then have buffer local remappings such as
+    - `dd` would delete the record you're under
+    - Changing any records (apart from pk) and then `:wq`ing would update the records.
+      - There should be a config option to prompt for confirmation beforehand (default is on)
+      - Autocompletion should NOT be baked in. It should be a separate source for the completion manager of choice.
+       
+      - When we do SHOW TABLES, it'd be good to have some more shortcuts in the buffer such as
+        - `D`: Pressing this over the table in the result would Describe it
+        - `S`: Pressive this over the table in the result would select from it (perhaps with a limit)
+        - `dd`: Drop the table
+
+      - When we do SHOW DATABASES, the following would be good:
+        - `S`: Show the tables in this database
+        - `dd`: Drop the database
+           
+  
 - A function/plugin that moves a visual selection into its own file. Useful for refactoring large files into smaller ones.
 It would only create files, not append to pre-existing files
 
