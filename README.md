@@ -274,7 +274,7 @@ i.e.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
   
-- A modern version of the dbext plugin. It would be able to use mysql, postgres etc... but also able to set up a connection through a docker container (or any other thing really). Features in mind
+- (Created here https://github.com/joereynolds/SQHell.vim) A modern version of the dbext plugin. It would be able to use mysql, postgres etc... but also able to set up a connection through a docker container (or any other thing really). Features in mind
   - Run current line as SQL statement
   - Run file as SQL statement
   - SELECTing should bring back the results in a buffer which can then have buffer local remappings such as
