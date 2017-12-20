@@ -270,6 +270,19 @@ i.e.
 <a name="vim"></a>
 ### ViM
 
+- Vim Plugin `appendAt`. The mapping would be `ga` (this shadows the normal vim functionality of showing an ascii value under the cursor, which I have seen precisely 0 people ever use).
+
+It would take a motion and a character to append at. Here's some examples to clarify
+
+```
+ga^var "At the beginning of the line, append var
+ga$; "At the end of the line append ;
+gab$ "At the beginning of <cword> append $
+ga}. "At the end of the paragraph, append a .
+gagg<?php "At the start of the file add <?php
+etc...
+```
+
 - A ViM function that unit tests the current function your cursor is in.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
