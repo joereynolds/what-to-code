@@ -270,7 +270,7 @@ i.e.
 <a name="vim"></a>
 ### ViM
 
-- Vim Plugin `appendAt`. The mapping would be `ga` (this shadows the normal vim functionality of showing an ascii value under the cursor, which I have seen precisely 0 people ever use).
+- (Created here https://github.com/joereynolds/place.vim) Vim Plugin `appendAt`. The mapping would be `ga` (this shadows the normal vim functionality of showing an ascii value under the cursor, which I have seen precisely 0 people ever use).
 
 It would take a motion and a character to append at. Here's some examples to clarify
 
