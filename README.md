@@ -55,7 +55,7 @@ If you make them and they're not FOSS, don't let me know.
   chars 10
   gwrtp+5gl~
   ```
-**created** https://github.com/NotNorom/rchars
+  **created** https://github.com/NotNorom/rchars
 
 
 - (Could also be a webpage) A password hasher. You give it a string and the type of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted string.
