@@ -121,7 +121,7 @@ i.e.:
   - found large amount of differing values for paddings
   - found non standard media query sizes...why?
   <a name="non-interactive"></a>
-  
+
 ### Local, non-interactive (command-line / daemon)
 
   - A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
@@ -154,7 +154,7 @@ i.e.
   ```
   Would create 5 tween images.
 
-- A program that finds dead functions (ones not used).  
+- A program that finds dead functions (ones not used).
   It finds all functions in a file, greps through each function name.
   If that grep brings back nothing, then it's not used (provided it's
   only used in one codebase that is..)
@@ -198,7 +198,7 @@ i.e.
 
 - A basic video editor. It should handle the bare minimum (yet useful features)
   - Merge two videos together
-  
+
 - A cross platform podcast manager, (see gpodder). Build on Electron? You should be able to:
   - Add/Remove podcast subscriptions
   - Tag subscriptions (Programming, Music, Creative etc...)
@@ -210,7 +210,7 @@ i.e.
   - Manage subdomains (create, remove etc...)
   - Manage document roots
   - Other stuff...?
-  
+
 - A desktop app that is basically just an input box where you enter a JIRA ticket and it'll open up the URL for you. If it's a project ticket, it'll open up the pull request page instead.
 
 - A desktop app which logs the time of each application that you view. i.e. it'll give you a breakdown of the total time spent on each program.
@@ -263,7 +263,7 @@ i.e.
 - Defend your castle game
 
 - The jetpack game: You're a stickman who needs to get to the other side of the map in his jetpack without hitting any obstacles.
- 
+
 - Melvin and Waldorf: A couch-co-op platformer.(vague, I know)
 
 
@@ -286,7 +286,7 @@ etc...
 - A ViM function that unit tests the current function your cursor is in.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
-  
+
 - (Created here https://github.com/joereynolds/SQHell.vim) A modern version of the dbext plugin. It would be able to use mysql, postgres etc... but also able to set up a connection through a docker container (or any other thing really). Features in mind
   - Run current line as SQL statement
   - Run file as SQL statement
@@ -295,7 +295,7 @@ etc...
     - Changing any records (apart from pk) and then `:wq`ing would update the records.
       - There should be a config option to prompt for confirmation beforehand (default is on)
       - Autocompletion should NOT be baked in. It should be a separate source for the completion manager of choice.
-       
+
       - When we do SHOW TABLES, it'd be good to have some more shortcuts in the buffer such as
         - `D`: Pressing this over the table in the result would Describe it
         - `S`: Pressive this over the table in the result would select from it (perhaps with a limit)
@@ -304,8 +304,8 @@ etc...
       - When we do SHOW DATABASES, the following would be good:
         - `S`: Show the tables in this database
         - `dd`: Drop the database
-           
-  
+
+
 - A function/plugin that moves a visual selection into its own file. Useful for refactoring large files into smaller ones.
 It would only create files, not append to pre-existing files
 
@@ -358,9 +358,9 @@ In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs
 - A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in chrome opens up a file explorer but on most desktop apps it opens up the preferences. Fix this. Could maybe just be a github repo?
 
 - An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as (maybe base it around Ben Elijah's principles)
-  - Todo : Organise your stuff to do here 
+  - Todo : Organise your stuff to do here
   - Notes : Basic rambling page
-    
+
 - An online calendar that doesn't require login or auth. You create a calendar and get a permalink. Anyone with that permalink is free to add events etc...
 
 - A web utility that generates an image either of a specified dimension size, or, filesize.
@@ -376,7 +376,7 @@ In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs
 - A webpage for steam games. Enter the game and it'll show you (or take you to) the person that has the most playtime for that game and their review. Only scrapes reviews.
 
 - A website that is a database of bird calls. Would have a table format like this
-  Bird Picture | Bird name | play button to listen to call | read more button  
+  Bird Picture | Bird name | play button to listen to call | read more button
   Could be scraped from [xeno-canto.org](http://www.xeno-canto.org/)
 
 - A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...
@@ -389,7 +389,7 @@ In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs
 
 - A program that orders stuff of ebay. You pump it with £365 and everyday it'll order one new item and have it delivered to work with that persons name, then, it's their lucky day!
 
-- An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
+- An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc...
   Basically somewhere to manage all the ideas, videos of jam sessions etc...
 
 - A bot to farm neocoins from neopets
