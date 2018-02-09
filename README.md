@@ -368,6 +368,8 @@ It would only create files, not append to pre-existing files
 - A site generator based on markdown files and no setup.
   You send the file over to the server and it renders it for you, that's it!
 
+**Created** http://markfast.xyz
+
 - A better version of the Nicepage chrome extension I made
 
 - An open source, free hostel booking program similar to dorm booker, but free and more featureful
