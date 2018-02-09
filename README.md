@@ -37,7 +37,7 @@ If you make them and they're not FOSS, don't let me know.
 
 - A better `cd`. You just type `cd Directory` and then it will try and go to the directory called `Directory`. If multiple results are found, it populates a list for you to choose from.
 
-- A command-line utility that gets the extension of a file (Write it in scheme?) **created** https://github.com/Natfan/FunLittleThings/tree/master/FileExtension
+- A command-line utility that gets the extension of a file (Write it in scheme?)
   i.e.
   ```
   ext hello.jpg
@@ -56,11 +56,8 @@ If you make them and they're not FOSS, don't let me know.
   gwrtp+5gl~
   ```
 
-**Created** https://github.com/Shagon94/chars
 
 - (Could also be a webpage) A password hasher. You give it a string and the type of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted string.
-
-**Created** https://github.com/DakshMiglani/passwordjs
 
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
 
@@ -273,9 +270,41 @@ i.e.
 <a name="vim"></a>
 ### ViM
 
+- (Created here https://github.com/joereynolds/place.vim) Vim Plugin `appendAt`. The mapping would be `ga` (this shadows the normal vim functionality of showing an ascii value under the cursor, which I have seen precisely 0 people ever use).
+
+It would take a motion and a character to append at. Here's some examples to clarify
+
+```
+ga^var "At the beginning of the line, append var
+ga$; "At the end of the line append ;
+gab$ "At the beginning of <cword> append $
+ga}. "At the end of the paragraph, append a .
+gagg<?php "At the start of the file add <?php
+etc...
+```
+
 - A ViM function that unit tests the current function your cursor is in.
   i.e. If you're cursor is in an 'getPriceForTravel' function, then executing the vim function would do something like
   `phpunit path/to/file functionName` under the hood
+  
+- (Created here https://github.com/joereynolds/SQHell.vim) A modern version of the dbext plugin. It would be able to use mysql, postgres etc... but also able to set up a connection through a docker container (or any other thing really). Features in mind
+  - Run current line as SQL statement
+  - Run file as SQL statement
+  - SELECTing should bring back the results in a buffer which can then have buffer local remappings such as
+    - `dd` would delete the record you're under
+    - Changing any records (apart from pk) and then `:wq`ing would update the records.
+      - There should be a config option to prompt for confirmation beforehand (default is on)
+      - Autocompletion should NOT be baked in. It should be a separate source for the completion manager of choice.
+       
+      - When we do SHOW TABLES, it'd be good to have some more shortcuts in the buffer such as
+        - `D`: Pressing this over the table in the result would Describe it
+        - `S`: Pressive this over the table in the result would select from it (perhaps with a limit)
+        - `dd`: Drop the table
+
+      - When we do SHOW DATABASES, the following would be good:
+        - `S`: Show the tables in this database
+        - `dd`: Drop the database
+           
   
 - A function/plugin that moves a visual selection into its own file. Useful for refactoring large files into smaller ones.
 It would only create files, not append to pre-existing files
@@ -285,6 +314,35 @@ It would only create files, not append to pre-existing files
 - A function that removes all trailing whitespace
 
 **Created** https://github.com/koryschneider/vim-trim
+
+- A plugin that correctly infers databases, tables and columns through autocompletion. One way of doing this would be to hold an in-memory dictionary of mappings of the form db->table->column
+The structure may look like this
+```
+db_mappings = [
+    'customer_portal':
+        customer:
+            account:
+                id,
+                first_name,
+                last_name,
+                created_at,
+        transactions:
+            id,
+            created_at,
+            type,
+            request
+        logs:
+            id,
+            action,
+            updated_at
+     ,
+     more dbs here...
+     ...
+]
+```
+In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs` are the related tables and then nested inside them are their columns. Typing in an sql file should first look in the database for a matching word, if none found, check the tables, and then finally, columns.
+
+- A plugin that adds more command line replacements. For example `%` already stands for the current file, it'd be good if we could do `c` for the current class we're in, or `f` for function (use different letters as they're too generic)
 
 - A better version of search (`/`). It would behave exactly the same except it would say how many matches there were and how far through you were i.e. '20/60 matches' means you're on the 20th out of 60 matches. Ideally this would be in the bottom right of the status bar.
 
@@ -321,12 +379,15 @@ It would only create files, not append to pre-existing files
   Bird Picture | Bird name | play button to listen to call | read more button  
   Could be scraped from [xeno-canto.org](http://www.xeno-canto.org/)
 
-- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...**Created** http://util.joereynoldsaudio.com/util/rawtext
+- A jra util that shows a raw string. i.e '1 2 3 4 5' would return '1SPACE2SPACE3' or whatever the space code is...
+**Created** http://util.joereynoldsaudio.com/util/rawtext
 
 - A website which contains a database of instrumentation for songs. You can search for a song that has 2 violins and a piano and then it shows the matches. This is a huge project.
 
 <a name="service"></a>
 ### Service
+
+- A program that orders stuff of ebay. You pump it with £365 and everyday it'll order one new item and have it delivered to work with that persons name, then, it's their lucky day!
 
 - An internal-style webpage manager thingy for bands. Audio clips would automatically loaded in (use audiojs?), videos would be a 4x4 grid, photos etc... 
   Basically somewhere to manage all the ideas, videos of jam sessions etc...
