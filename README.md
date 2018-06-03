@@ -18,7 +18,7 @@ If you make them and they're not FOSS, don't let me know.
 <a name="command-line"></a>
 ### Command line
 
-- A command line music theory program **created** https://github.com/joereynolds/cmaj
+- A command line music theory program 
 
 - `where-is` a program that helps you find config files etc...
   i.e.
@@ -32,7 +32,7 @@ If you make them and they're not FOSS, don't let me know.
   ```
 - An SQL parser to report better error messages than the god awful MySQL ones. Ideally build it using Bison and Flex so we don't have a bad time reinventing the wheel. 
 
-- A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust. **created** https://github.com/garrettm/splitters
+- A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust.
 
 - A front end to gtags-cscope
 
@@ -166,7 +166,7 @@ i.e.
 - word ladder that goes from one word to another ideally in the shortest amount of steps as possible
   e.g. Dog to Fig = Dog -> Dig -> Fig
   or
-  Dog -> Fog -> Fig **created** https://gist.github.com/bennydictor/00723b6708cb484e56a350613658f061
+  Dog -> Fog -> Fig
 
 - A soundex-ifier for songs, it changes the lyrics of the song to words that sound like that word.
   i.e.
