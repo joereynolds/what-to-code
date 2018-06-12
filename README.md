@@ -126,6 +126,8 @@ i.e.:
 ### Local, non-interactive (command-line / daemon)
 
   - A program that goes on a usb stick. When the usb stick is attached, it moves a file from the USB stick to the pc (ideally without triggering any 'potentially harmful' warnings)
+  
+  - Something to detect unused view files in codeigniter projects. It could grep for the view and if it's not returned, assume it's not used?
 
   - A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
 
