@@ -36,6 +36,23 @@ If you make them and they're not FOSS, don't let me know.
 
 - A front end to gtags-cscope
 
+- A program to generate kitchen sink pages for you automatically. i.e. If you want to know what a component looks like, point it to a CSS file and it will generate permutations of it. For example (Sass example below but should work for either)
+
+```
+.notification {
+    .title {
+        color: red;
+    }
+}
+```
+Would generate
+
+```
+<div class="notification">
+  <div class="title">Placeholder content</div>
+</div>
+```
+
 - A better `cd`. You just type `cd Directory` and then it will try and go to the directory called `Directory`. If multiple results are found, it populates a list for you to choose from.
 
 - A command-line utility that gets the extension of a file (Write it in scheme?)
