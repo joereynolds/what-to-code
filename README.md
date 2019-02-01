@@ -32,6 +32,10 @@ If you make them and they're not FOSS, don't let me know.
   ```
 - An SQL parser to report better error messages than the god awful MySQL ones. Ideally build it using Bison and Flex so we don't have a bad time reinventing the wheel. 
 
+**In progress** 
+[sql-lint](https://github.com/joereynolds/sql-lint)
+
+
 - A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust.
 
 - A front end to gtags-cscope
@@ -151,6 +155,9 @@ i.e.:
   - Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
 
   - MySQL linter - Given a file, it'll show you where the errors are, what possible caused those errors (instead of the god awful mysql error reporting) etc...
+  
+**In progress** 
+[sql-lint](https://github.com/joereynolds/sql-lint)
 
   - OCR. Submit an image and it tries to read the text of the image.
 
@@ -205,8 +212,6 @@ i.e.
 - Given an image, you should convert it into a text-based equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 
 - Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
-
-- Just like "inotify" tracks creation/modification of files, create something that allows one to track modification of individual  **blocks** of specific files.  This probably needs to be a kernel module.
 
 - A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
 
