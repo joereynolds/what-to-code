@@ -383,6 +383,27 @@ g/i}test
 
 Search from the current position until the end of the file
 g/Gtest
+
+
+Here's some viml to get you started
+
+
+"motion-search.vim
+"help g@
+nmap g/ :set operatorfunc=MotionSearch<cr>g@
+
+function! MotionSearch(type, ...) abort
+    let start_selection = line("'[")
+    let end_selection = line("']")
+
+    let match = search('test', '', start_selection)
+    let end = search('', '', end_selection)
+
+    echo '/\%>' . start_selection ."l\%<" . end_selection . 'ltest'
+    execute 'normal! /\%>' . start_selection ."l\%<" . end_selection . 'ltest'
+                   " /\%>    12                l\%<    24               lsearch
+
+endfunction
 ```
 
 <a name="websites"></a>
