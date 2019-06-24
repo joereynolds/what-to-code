@@ -375,6 +375,16 @@ In the above, `customer_portal` is the db, `customer`, `transactions`, and `logs
 
 - A re-mapping of some of PHPStorm's cool features. For instance ctrl+alt+shift+n searches for a function with that name in that file. This could be remapped by doing /n searchTerm
 
+- A plugin that can search through motions instead of through an entire buffer. The mapping could be `g/`. Here are a few usage examples
+
+```
+Search within a block of {'s for the word test
+g/i}test
+
+Search from the current position until the end of the file
+g/Gtest
+```
+
 <a name="websites"></a>
 ### Websites
 
