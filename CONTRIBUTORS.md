@@ -24,3 +24,8 @@ https://github.com/joereynolds/cmaj
 ## A program that can split one file into many. 
 
 https://github.com/garrettm/splitters
+
+## A command-line utility that gets the extension of a file
+
+https://github.com/Tarik02/ext
+
