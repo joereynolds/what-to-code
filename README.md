@@ -70,6 +70,7 @@ Would generate
   jpg
   php
   ```
+  **Created** https://github.com/Tarik02/ext
 
 - A command-line program that generates a random string that is N characters long.
   i.e.
