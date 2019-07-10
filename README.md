@@ -1,5 +1,4 @@
 # what-to-code
-
 ## Index
 
 1. [Command line](#command-line)
@@ -14,6 +13,10 @@
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
+
+## Contribution & pull requests
+
+Want to be added to the list of people that have completed a project? Just add the project's heading and your repo's url to [CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
 <a name="command-line"></a>
 ### Command line
