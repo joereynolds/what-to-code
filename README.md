@@ -95,6 +95,30 @@ Would generate
 - (Could also be a webpage) A password hasher. You give it a string and the type
   of hashing algorithm (SHA-1, MD5, Bcrypt etc...) and it returns the encrypted
   string.
+  
+- A program to download a challenge from reddit.com/r/dailyprogrammer and then output it to stdout to be used in various editors/ides.
+
+Examples of usage (program is assumed to be called `dp`):
+
+```
+# Downloads challenge #200, the easy one
+> dp 200 easy
+
+# Downloads all variants of challenge #200 (easy, intermediate, hard)
+> dp 200
+
+# Downloads all easy challenges
+> dp all easy
+
+# Download easy and intermediate
+> dp all easy,intermediate
+
+# Invalid ID
+> dp 45869
+Challenge number 45689 does not exist
+```
+
+The output is directly printed onto the terminal so the user can do with it what they wish.
 
 - An endpoint tester/fuzzer, i.e. if you have the following endpoint
 
