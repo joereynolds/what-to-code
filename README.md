@@ -480,6 +480,10 @@ endfunction
 - A website(?) that tries to standardise hotkeys across programs. i.e. ctrl+p in
   chrome opens up a file explorer but on most desktop apps it opens up the
   preferences. Fix this. Could maybe just be a github repo?
+  
+- A website that displays (and sells) art from people in various institutions.
+Prisons, Psychiatric Hospitals etc... Non-profit. All proceeds go back into the charity and the institutions that made
+the sale.
 
 - An online app where a user can organise their thoughts. The nav would be on the side and would have entries such as (maybe base it around Ben Elijah's principles)
   - Todo : Organise your stuff to do here 
