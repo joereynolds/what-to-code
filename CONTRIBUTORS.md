@@ -11,7 +11,9 @@ http://markfast.xyz (koryschneider)
 
 ## A command-line program that generates a random string that is N characters long. i.e.
 
-https://github.com/NotNorom/rchars
+https://github.com/NotNorom/rchars (Rust)
+
+https://gist.github.com/mtraverso3/95cf4f2134f2101a5dd70e71ff13ef9b (Pure Bash)
 
 ## A word ladder that goes from one word to another
 
