@@ -31,3 +31,6 @@ https://github.com/garrettm/splitters
 
 https://github.com/Tarik02/ext
 
+## A program to download a challenge from reddit.com/r/dailyprogrammer and then output it to stdout to be used in various editors/ides.
+
+https://github.com/banzai200/Daily-Programmer
