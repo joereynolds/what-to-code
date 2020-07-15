@@ -10,6 +10,7 @@
 6. [Vim](#vim) - Various functions I would quite like to have in Vim
 7. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
 8. [Service](#service) - ???
+9. [Algorithms](#Algorithms)
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
@@ -610,3 +611,11 @@ the sale.
 
 - Something to draw (and maybe interact with) [Apollonian
   Gaskets](https://en.wikipedia.org/wiki/Apollonian_gasket) (a kind of fractal)
+  
+
+<a name="Algorithms"></a>
+### Algorithms
+
+  - Fibbonacci Sequence
+  - Pascal Triangle
+  - Other famous arithmetic sequences like Fibbonacci.
