@@ -8,13 +8,13 @@
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
 5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
 6. [Vim](#vim) - Various functions I would quite like to have in Vim
-7. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
+7. [Websites](#websites) - Original website ideas that I am never get around to doing 
 8. [Service](#service) - ???
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
 
-## Contribution & pull requests
+## Contribution & pull requests 
 
 Want to be added to the list of people that have completed a project? Just add
 the project's heading and your repo's url to
