@@ -6,7 +6,7 @@
 3. [Desktop apps](#desktop)
 3. [Games](#games)
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like
-5. [Re-implementations](#reimplementation)- These ideas already exist but they're fun anyway
+5. [Re-implementations](#reimplementation) - These ideas already exist but they're fun anyway
 6. [Vim](#vim) - Various functions I would quite like to have in Vim
 7. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
 8. [Service](#service) - ???
