@@ -315,7 +315,7 @@ i.e.
 - A desktop app that profiles code. i.e. runs a function 100 times and outputs a
   csv/txt file of the results.
 
-- Porn keyboard Get samples of women's moans from the low E to the 12th fret on
+- Porn keyboard Get samples of women's (or mens) moans from the low E to the 12th fret on
   the high e. Map these to a MIDI keyboard in kontakt.  Try and get multiple
   samples per note to allow for variety.
 
