@@ -186,6 +186,8 @@ i.e.:
   
 ### Local, non-interactive (command-line / daemon)
 
+  - A PHP library that works with GNU recutils
+
   - A program that goes on a usb stick. When the usb stick is attached, it moves
     a file from the USB stick to the pc (ideally without triggering any
     'potentially harmful' warnings)
