@@ -15,6 +15,8 @@ https://github.com/NotNorom/rchars (Rust)
 
 https://gist.github.com/mtraverso3/95cf4f2134f2101a5dd70e71ff13ef9b (Pure Bash)
 
+https://github.com/CyanCoding/chars (Vala)
+
 ## A word ladder that goes from one word to another
 
 https://gist.github.com/bennydictor/00723b6708cb484e56a350613658f061
