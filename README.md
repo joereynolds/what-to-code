@@ -72,6 +72,12 @@ Would generate
 - A better `cd`. You just type `cd Directory` and then it will try and go to the
   directory called `Directory`. If multiple results are found, it populates a
   list for you to choose from.
+  
+- A `help` for cli flags. Sometimes I see a flag and don't know what it does. For example `rg -g`. 
+  usage:
+  ```
+  rg -g | what # This will then display the --help/man/info page for the -g flag
+  ```
 
 - A command-line utility that gets the extension of a file (Write it in scheme?)
   i.e.
