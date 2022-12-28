@@ -294,6 +294,8 @@ i.e.
   - Manage document roots
   - Other stuff...?
 
+- An integration into i3 status that shows OTPs so you don't have to keep opening up your authentication software to get a key
+
 - A desktop app that is basically just an input box where you enter a JIRA
   ticket and it'll open up the URL for you. If it's a project ticket, it'll open
   up the pull request page instead.
