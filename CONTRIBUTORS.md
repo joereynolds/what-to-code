@@ -34,3 +34,7 @@ https://github.com/Tarik02/ext
 ## A program to download a challenge from reddit.com/r/dailyprogrammer and then output it to stdout to be used in various editors/ides.
 
 https://github.com/banzai200/Daily-Programmer
+
+## An online calendar that doesn't require login or auth
+
+https://github.com/kazad/pastecal ([pastecal.com](https://pastecal.com))
