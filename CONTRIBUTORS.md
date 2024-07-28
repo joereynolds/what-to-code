@@ -1,4 +1,3 @@
-
 # Contributors
 
 ## A vim function that removes all trailing whitespace
@@ -40,3 +39,7 @@ https://github.com/banzai200/Daily-Programmer
 ## An online calendar that doesn't require login or auth
 
 https://github.com/kazad/pastecal ([pastecal.com](https://pastecal.com))
+
+## Where-is a program that helps you find config files etc.
+
+https://github.com/patermars/where-is
