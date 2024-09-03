@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > For the past 3 years I have been silently developing a video game.
-> It's finally available to wishlist if you're into topdown action/puzzle games
+> It's finally available to wishlist. If you're into topdown action/puzzle games
 > Wishlist Mr Figs [here](https://store.steampowered.com/app/3122220/Mr_Figs/).
 
 ## Index
