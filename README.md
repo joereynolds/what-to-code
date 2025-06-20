@@ -45,7 +45,9 @@ the project's heading and your repo's url to
 
 - An SQL parser to report better error messages than the god awful MySQL ones.
   Ideally build it using Bison and Flex so we don't have a bad time reinventing
-  the wheel. 
+  the wheel.
+
+- `leave` - a program that removes all files except the specified one (opposite of rm) . Write it in C
 
 - A program that can split one file into many. For example, I had a csv file
   that was 300mb and could not do any processing with it because it was so big.
