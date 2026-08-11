@@ -43,3 +43,7 @@ https://github.com/kazad/pastecal ([pastecal.com](https://pastecal.com))
 ## Where-is a program that helps you find config files etc.
 
 https://github.com/patermars/where-is
+
+## A program that removes all files except the specified one (opposite of rm)
+
+https://github.com/patrikkaprinay/leave
